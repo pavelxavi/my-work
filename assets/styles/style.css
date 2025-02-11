@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --maron:#3E3232;
+}
+body{
+    font-family: "Poppins", serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+    align-items: center;
+}
+button{
+    background-color:var(--maron) ;
+    color: #DFCECE;
+    width: 160px;
+    height: 64px;
+    border-radius: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #3E3232;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: blue;
+    transform:translateY(-8px) scale(0.9);
+    transition: 0,8s;
+}
+button:hover{
+    background-color: burlywood;
+    color: coral;
+    transform:translateY(-8px) scale(0.9);
+    transition: 1s;cursor: pointer;
+    box-shadow: 8px 3px 4px var(--maron); 
+}
